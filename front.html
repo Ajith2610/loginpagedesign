@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>ALPHA-QA</title>
+        <link rel="stylesheet"href="front.css">
+    </head>
+    <body>
+        <div id="H1">
+            <nav>
+                <ul>
+                    <li> <a href="#">HOME</a></li> 
+                    <li> <a href="#">ABOUT US</a></li>
+                     <li> <a href="#">CONTACT</a></li>
+                   </ul> 
+               </nav>     
+        </div>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box"> 
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn"onclick="Login()">Log in</button>   
+                    <button type="button" class="toggle-btn"onclick="Register()">Register</button>   
+                </div>
+                <form id="Login"class="input-group">
+                    <input type="text"class="input-field"placeholder="User ID" required>
+                    <input type="text"class="input-field"placeholder="Password" required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span> 
+                    <button  type="submit" class="submit-btn">Login</button>
+                </form>
+                <form id="Register"class="input-group">
+                    <input type="text"class="input-field"placeholder="User ID" required>
+                    <input type="text"class="input-field"placeholder="Email ID" required>
+                    <input type="text"class="input-field"placeholder="Password" required>
+                    <input type="checkbox" class="check-box"><span>I Agree to the terms & condition</span> 
+                    <button  type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            var x=document.getElementById("Login");
+            var y=document.getElementById("Register");
+            var z=document.getElementById("btn");
+
+            function Register()
+            {
+                x.style.left="-400px";
+                y.style.left="20px";
+                z.style.left="100px";
+            }
+
+            function Login()
+            {
+                x.style.left="30px";
+                y.style.left="450px";
+                z.style.left="0px";
+            }
+        </script>
+    </body>
+</html>
