@@ -5,12 +5,11 @@
 body{
     width:100%;
     height:100px;
-    background-image: url("A4.jpg");
+    background-image: url("B1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
 #H1 nav
  {
     
@@ -43,7 +42,7 @@ nav ul li a
     height:380px;
     position:relative;
     margin:11% auto;
-    background:white;
+    background:black;
     padding:5px;
     overflow: hidden;
 }
@@ -81,7 +80,6 @@ nav ul li a
     position:absolute;
     width:280px;
     transition:.5s;
-    
 }
 .input-field
 {
@@ -120,13 +118,9 @@ span
 }
 #Login
 {
-    
-    left:50px;
-    
+    left:30px;
 }
-
 #Register
 {
     left: 450px;
 }
-
